@@ -1,4 +1,4 @@
-function twoNumberSum(array: number[], targetSum: number) {
+export function twoNumberSum(array: number[], targetSum: number) {
     const seen = new Map<number, true>()
     for (const num of array) {
         const delta = targetSum - num
