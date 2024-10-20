@@ -9,10 +9,9 @@ data class IntermediateState(
 )
 
 fun tournamentWinner(competitions: List<List<String>>, results: List<Int>): String {
-  val (_, winner) = competitions.foldIndexed(IntermediateState()) { idx, (scoreboard, bestTeam), competition ->
-    val matchResult = results[idx]
+  val (_, winner) = competitions.zip(results).fold(IntermediateState()) { (scoreboard, bestTeam), (competition, result) ->
     val (homeTeam, awayTeam) = competition
-    val winner = if (isHomeTeamWin(matchResult)) homeTeam else awayTeam
+    val winner = if (isHomeTeamWin(result)) homeTeam else awayTeam
     val scoreToAdd = scoreboard.getOrDefault(winner, 0) + 3
 
     IntermediateState(
