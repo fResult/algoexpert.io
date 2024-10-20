@@ -146,19 +146,19 @@ targetSum = -5
 
 <details>
 <summary>Hint 1</summary>
-Try using two for loops to sum all possible pairs of numbers in the input array.
+Try using two for loops to sum all possible pairs of numbers in the input array.<br>
 What are the time and space implications of this approach?
 </details>
 
 <details>
 <summary>Hint 2</summary>
-Realize that for every number X in the input array, you are essentially trying to find a corresponding number Y such that X + Y = targetSum.
+Realize that for every number X in the input array, you are essentially trying to find a corresponding number Y such that X + Y = targetSum.<br>
 With two variables in this equation known to you, it shouldn't be hard to solve for Y.
 </details>
 
 <details>
 <summary>Hint 3</summary>
-Try storing every number in a hash table, solving the equation mentioned in Hint #2 for every number, and checking if the Y that you find is stored in the hash table.
+Try storing every number in a hash table, solving the equation mentioned in Hint #2 for every number, and checking if the Y that you find is stored in the hash table.<br>
 What are the time and space implications of this approach?
 </details>
 

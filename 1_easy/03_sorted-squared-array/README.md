@@ -85,6 +85,13 @@ Hint 3
 </details>
 
 <details>
+<summary>Hint 4</summary>
+Use two pointers to keep track of the smallest and largest values in the input array.<br>
+Compare the absolute values of these smallest and largest values, square the larger absolute value, and place the square at the end of the output array, filling it up from right to left.<br>
+Move the pointers accordingly, and repeat this process until the output array is filled.
+</details>
+
+<details>
 <summary>Optimal Space & Time Complexity</summary>
-Optimal Space & Time Complexity
+O(n) time | O(n) space - where n is the length of the input array
 </details>
