@@ -2,6 +2,8 @@
 
 **Category:** <category_name>
 
+\<description\>
+
 **Sample Input 1:**
 
 ```txt

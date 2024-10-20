@@ -2,12 +2,19 @@
 
 **Category:** Arrays
 
+\<description\>
+
 **Sample Input 1:**
 
 ```txt
 ```
 
 **Sample Output 1:**
+
+```txt
+```
+
+**Sample Input 2:**
 
 ```txt
 ```
