@@ -1,5 +1,5 @@
 // O(n^2) time | O(n^2) space
-function transposeMatrix(matrix: number[][]) {
+export function transposeMatrix(matrix: number[][]): number[][] {
     const outerSize = matrix.length
     const innerSize = matrix.map((xs) => xs.length)[0]
     const transposedMatrix: number[][] = Array.from({ length: Math.max(outerSize, innerSize) }, (_) =>
