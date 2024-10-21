@@ -3,13 +3,12 @@ import scala.util.control.Breaks.{break, breakable}
 def nonConstructibleChange(coins: List[Int]): Int = {
   val sortedCoins = coins.sorted
   var currentChange = 0
-  breakable {
+  breakable:
     for (coin <- sortedCoins) {
-      if (coin > currentChange + 1)
-        break
+      if (coin > currentChange + 1) break
       currentChange += coin
     }
-  }
+
   currentChange + 1
 }
 
