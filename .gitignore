@@ -1,2 +1,3 @@
-.vscode
+# Python Cache
+.vscode/**/PythonImportHelper-v2-Completion.json
 **/__pycache__
