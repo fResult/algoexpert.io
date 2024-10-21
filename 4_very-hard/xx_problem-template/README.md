@@ -92,6 +92,11 @@ Hint 3
 </details>
 
 <details>
+<summary>Hint 4</summary>
+Hint 4
+</details>
+
+<details>
 <summary>Optimal Space & Time Complexity</summary>
 Optimal Space & Time Complexity
 </details>
