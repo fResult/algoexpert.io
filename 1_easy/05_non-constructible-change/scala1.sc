@@ -1,5 +1,6 @@
 import scala.util.control.Breaks.{break, breakable}
 
+// O(n log n) time | O(1) space
 def nonConstructibleChange(coins: List[Int]): Int = {
   val sortedCoins = coins.sorted
   var currentChange = 0

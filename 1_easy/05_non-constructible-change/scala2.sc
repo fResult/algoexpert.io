@@ -2,6 +2,7 @@ import scala.annotation.tailrec
 
 val INITIAL_AMOUNT = -1
 
+// O(n log n) time | O(1) space
 @tailrec
 def nonConstructibleChange(coins: List[Int],
                            currentChangeCreated: Int = 0,
