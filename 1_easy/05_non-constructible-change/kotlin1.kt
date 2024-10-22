@@ -1,6 +1,6 @@
 // package com.algoexpert.program
 
-fun nonConstructibleChange(coins: List<Int> = listOf()): Int {
+tailrec fun nonConstructibleChange(coins: List<Int> = listOf()): Int {
   val sortedCoins = coins.sorted()
   var currentChangeCreated = 0
 
