@@ -10,8 +10,8 @@ class BST {
   }
 }
 
-export function findClosestValueInBst(tree: BST, target: number, closest: number = Infinity): number {
-  if (tree === null) return closest
+export function findClosestValueInBst(tree: BST?, target: number, closest: number = Infinity): number {
+  if (tree === null) return closest!!
   if (tree.value == target) return target
 
   closest = Math.abs(target - tree.value) < Math.abs(target - closest) ? tree.value : closest
