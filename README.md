@@ -8,59 +8,61 @@ Practice Data Structure and Algorithm with AlgoExpert
 <summary>
 Arrays - 33 problems
 </summary>
-
-    - [Two Number Sum](./1_easy/01_two-number-sum)
-    - Validate Subsequence
-    - Sorted Squared Array
-    - Tournament Winner
-    - Non-Constructible Change
-    - Transpose Matrix
-    - Three Number Sum
-    - Smallest Difference
-    - Move Element To End
-    - Monotonic Array
-    - Spiral Traverse
-    - Longest Peak
-    - Array Of Products
-    - First Duplicate Value
-    - Merge Overlapping Intervals
-    - Best Seat
-    - Zero Sum Subarray
-    - Missing Numbers
-    - Majority Element
-    - Sweet And Savory
-    - Four Number Sum
-    - Subarray Sort
-    - Largest Range
-    - Min Rewards
-    - Zigzag Traverse
-    - Longest Subarray With Sum
-    - Knight Connection
-    - Count Squares
-    - Apartment Hunting
-    - Calendar Matching
-    - Waterfall Streams
-    - Minimum Area Rectangle
-    - Line Through Points
+    <ol>
+        <li><a href="./1_easy/01_two-number-sum">Two Number Sum</a></li>
+        <li><a href="./1_easy/02_validate-subsequence">Validate Subsequence</a></li>
+        <li><a href="./1_easy/03_sorted-squared-array">Sorted Squared Array</a></li>
+        <li><a href="./1_easy/04_tournament-winner">Tournament Winner</a></li>
+        <li><a href="./1_easy/05_non-constructible-change">Non-Constructible Change</a></li>
+        <li><a href="./1_easy/06_transpose-matrix">Transpose Matrix</a></li>
+        <li>Three Number Sum</li>
+        <li>Smallest Difference</li>
+        <li>Move Element To End</li>
+        <li>Monotonic Array</li>
+        <li>Spiral Traverse</li>
+        <li>Longest Peak</li>
+        <li>Array Of Products</li>
+        <li>First Duplicate Value</li>
+        <li>Merge Overlapping Intervals</li>
+        <li>Best Seat</li>
+        <li>Zero Sum Subarray</li>
+        <li>Missing Numbers</li>
+        <li>Majority Element</li>
+        <li>Sweet And Savory</li>
+        <li>Four Number Sum</li>
+        <li>Subarray Sort</li>
+        <li>Largest Range</li>
+        <li>Min Rewards</li>
+        <li>Zigzag Traverse</li>
+        <li>Longest Subarray With Sum</li>
+        <li>Knight Connection</li>
+        <li>Count Squares</li>
+        <li>Apartment Hunting</li>
+        <li>Calendar Matching</li>
+        <li>Waterfall Streams</li>
+        <li>Minimum Area Rectangle</li>
+        <li>Line Through Points</li>
+    </ol>
 </details>
 
 <details>
 <summary>
 Binary Search Trees - 12 problems
 </summary>
-
-    - Find Closest Value In BST
-    - BST Construction
-    - Validate BST
-    - BST Traversal
-    - Min Height BST
-    - Find Kth Largest Value In BST
-    - Reconstruct BST
-    - Same BSTs
-    - Validate Three Nodes
-    - Repair BST
-    - Sum BSTs
-    - Right Smaller Than
+    <ol>
+        <li><a href="./1_easy/07_find-closest-value-in-bst">Find Closest Value In BST</a></li>
+        <li>BST Construction</li>
+        <li>Validate BST</li>
+        <li>BST Traversal</li>
+        <li>Min Height BST</li>
+        <li>Find Kth Largest Value In BST</li>
+        <li>Reconstruct BST</li>
+        <li>Same BSTs</li>
+        <li>Validate Three Nodes</li>
+        <li>Repair BST</li>
+        <li>Sum BSTs</li>
+        <li>Right Smaller Than</li>
+    </ol>
 </details>
 
 <details>
