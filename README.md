@@ -9,7 +9,7 @@ Practice Data Structure and Algorithm with AlgoExpert
 Arrays - 33 problems
 </summary>
 
-    - Two Number Sum
+    - [Two Number Sum](./1_easy/01_two-number-sum)
     - Validate Subsequence
     - Sorted Squared Array
     - Tournament Winner
