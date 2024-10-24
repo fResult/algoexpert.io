@@ -5,8 +5,8 @@ class BST:
         self.right: BST | None = None
 
 
-# Average: O(log n) time | O(log n) space
-# Worst: O(n) time | O(n) space
+# Average: O(log n) time | O(1) space
+# Worst: O(n) time | O(1) space
 #        Because it can be that every nodes are in the same branch in BST.
 #        So, we will never get rid of the branch from the BST.
 def find_closest_value_in_bst(tree: BST | None, target: int) -> int:
@@ -14,18 +14,20 @@ def find_closest_value_in_bst(tree: BST | None, target: int) -> int:
 
 
 def find_closest_value_in_bst_helper(tree: BST | None, target: int, closest: float) -> int:
-    if tree is None:
-        return int(closest)
+    current_node = tree
 
-    if abs(target - closest) > abs(target - tree.value):
-        closest = tree.value
+    while current_node is not None:
+        if abs(target - closest) > abs(target - current_node.value):
+            closest = current_node.value
 
-    if target < tree.value:
-        return find_closest_value_in_bst_helper(tree.left, target, closest)
-    elif target > tree.value:
-        return find_closest_value_in_bst_helper(tree.right, target, closest)
-    else:
-        return int(closest)
+        if target < current_node.value:
+            current_node = current_node.left
+        elif target > current_node.value:
+            current_node = current_node.right
+        else:
+            break
+
+    return int(closest)
 
 
 # root: BST = BST(12)
