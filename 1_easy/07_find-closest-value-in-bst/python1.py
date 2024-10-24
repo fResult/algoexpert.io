@@ -1,5 +1,3 @@
-from typing import cast
-
 class BST:
     def __init__(self, value: int):
         self.value: int = value
@@ -7,10 +5,10 @@ class BST:
         self.right: BST | None = None
 
 
-def findClosestValueInBst(tree: BST, target: int):
+def findClosestValueInBst(tree: BST | None, target: int):
     return findClosestValueInBstHelper(tree, target, float("inf"))
 
-def findClosestValueInBstHelper(tree: BST, target: int, closest: float):
+def findClosestValueInBstHelper(tree: BST | None, target: int, closest: float):
     if tree is None:
         return closest
 
@@ -18,9 +16,9 @@ def findClosestValueInBstHelper(tree: BST, target: int, closest: float):
         closest = tree.value
 
     if target < tree.value:
-        return findClosestValueInBstHelper(cast(BST, tree.left), target, closest)
+        return findClosestValueInBstHelper(tree.left, target, closest)
     elif target > tree.value:
-        return findClosestValueInBstHelper(cast (BST,tree.right), target, closest)
+        return findClosestValueInBstHelper(tree.right, target, closest)
     else:
         return closest
 
